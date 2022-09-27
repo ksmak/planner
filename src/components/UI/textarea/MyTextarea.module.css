@@ -1,0 +1,12 @@
+.textarea {
+    color: rgb(202, 111, 0);
+    font-size: 14pt;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.textarea:disabled {
+    background-color: rgb(255, 234, 195);
+    color: rgb(202, 111, 0);
+}

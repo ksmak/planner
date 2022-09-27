@@ -1,0 +1,130 @@
+.form__edit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: darkorange;
+}
+.form__edit h1 {
+    margin-bottom: 35px;
+}
+.form__edit__row {
+    padding: 15px, 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.form__edit__field {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tabs {
+    margin: 0px 0px 50px 0px;
+}
+.tabs__items {
+    display: flex;
+}
+.tabs__item {
+    flex: 1 0 25%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkorange;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+/* .tabs__item span {
+    position: relative;
+    z-index: 2;
+} */
+.tabs__block {
+    position: relative;
+    width: 1000px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 24px;    
+    display: none;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tabs__block::before {
+    content: "";
+    height: 30px;
+    width: 25%;
+    position: absolute;
+    top: -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tabs__block:target {
+    display: block;
+}
+.tabs__block:nth-child(1) {
+    border-top: 1px darkorange solid;
+}
+.tabs__block:nth-child(1)::before {
+    content: "Вкладка 1";
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: darkorange;
+    left: 0;
+}
+.tabs__block:nth-child(2) {
+    border-top: 1px darkorange solid;
+}
+.tabs__block:nth-child(2)::before {
+    content: "Вкладка 2";
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: darkorange;
+    left: 25%;
+}
+.tabs__block:nth-child(3) {
+    border-top: 1px darkorange solid;
+}
+.tabs__block:nth-child(3)::before {
+    content: "Вкладка 3";
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: darkorange;
+    left: 50%;
+}
+.tabs__block:nth-child(4) {
+    border-top: 1px darkorange solid;
+}
+.tabs__block:nth-child(4)::before {
+    content: "Вкладка 4";
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: darkorange;
+    right: 0;
+}
+
+.tabs__block input[type='text'] {
+    width: 970px;
+}
+
+.tabs__block textarea {
+    width: 970px;
+    height: 150px;
+}
+.tabs__block table {
+    width: 970px;
+}

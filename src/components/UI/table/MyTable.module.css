@@ -1,0 +1,15 @@
+.group {
+    margin-bottom: 15px;
+}
+.group h3 {
+    margin-bottom: 10px;
+}
+.group table {
+    border-collapse: collapse;
+}
+.group table td, .group table th {
+    color: rgb(202, 111, 0);
+    border: 1px darkorange solid;
+    padding: 5px;
+    font-size: 11pt;
+}

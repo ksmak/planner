@@ -1,0 +1,14 @@
+.select {
+    color: rgb(202, 111, 0);;
+    font-size: 14pt;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.select:disabled {
+    opacity: 1;
+    color: rgb(202, 111, 0);;
+    background-color: rgb(255, 234, 195);
+}

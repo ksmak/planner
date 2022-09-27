@@ -1,0 +1,34 @@
+.main__page {
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}   
+.main__menu {
+    width: 500px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+.main__menu nav {
+    color: white;
+    margin-left: 75px;
+}
+.main__menu nav li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main__content {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+.main__content header {
+    margin-bottom: 15px;
+}
+.main__content header h1 {
+    text-align: center;
+    color: darkorange;
+}
